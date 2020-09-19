@@ -1,3 +1,14 @@
+---
+page_type: sample
+languages:
+- cpp
+products:
+- windows
+- windows-uwp
+statusNotificationTargets:
+- codefirst@microsoft.com
+---
+
 <!---
   category: Gaming GraphicsAndAnimation
   samplefwlink: http://go.microsoft.com/fwlink/?LinkId=624011
@@ -8,11 +19,13 @@
 This is a mini-app that shows how to build a basic 3D game using DirectX on the Universal Windows Platform (UWP). 
 It's a simple labyrinth game where the player is challenged to roll a marble through a maze of pitfalls using tilt, mouse, or gamepad controls.
 
+> Note - This sample is targeted and tested for Windows 10, version 2004 (10.0; Build 19041, also known as the Windows 10 May 2020 Update), and Visual Studio 2019. If you prefer, you can use project properties to retarget the project(s) to Windows 10, version 1903 (10.0; Build 18362, also known as the Windows 10 May 2019 Update).
+
 ![MarbleMaze app in action](MarbleMaze.png)
 
 This sample is written in C++ and requires some experience with graphics programming and DirectX. 
 Complete content that examines this code can be found at 
-[Developing Marble Maze, a UWP game in C++ and DirectX](https://msdn.microsoft.com/windows/uwp/gaming/developing-marble-maze-a-windows-store-game-in-cpp-and-directx).
+[Developing Marble Maze, a UWP game in C++ and DirectX](https://docs.microsoft.com/windows/uwp/gaming/developing-marble-maze-a-windows-store-game-in-cpp-and-directx).
 
 ## Features
 
@@ -26,21 +39,24 @@ Complete content that examines this code can be found at
 ## Related topics
 
 * [Developing Marble Maze, a UWP game in C++ and DirectX](https://docs.microsoft.com/windows/uwp/gaming/developing-marble-maze-a-windows-store-game-in-cpp-and-directx)
-* [Create a simple UWP game with DirectX](https://msdn.microsoft.com/library/windows/apps/mt210793.aspx)
+* [Create a simple UWP game with DirectX](https://docs.microsoft.com/windows/uwp/gaming/tutorial--create-your-first-uwp-directx-game)
 * [Game programming](https://docs.microsoft.com/windows/uwp/gaming/index)
 * [DirectX programming](https://docs.microsoft.com/windows/uwp/gaming/directx-programming)
 * [Direct3D Graphics Learning Guide](https://docs.microsoft.com/windows/uwp/graphics-concepts/)
-* [Direct2D](https://msdn.microsoft.com/library/windows/desktop/dd370990) 
-* [HLSL](https://msdn.microsoft.com/library/windows/desktop/bb509561.aspx)
-* [XAudio2 APIs](https://msdn.microsoft.com/library/windows/desktop/hh405049)
+* [Direct2D](https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal) 
+* [HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl)
+* [XAudio2 APIs](https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-apis-portal)
 
 ## Universal Windows Platform development
 
-This sample requires Visual Studio 2017, the Windows 10 Creators Update, and the Software Development Kit (SDK) version 15063 for Windows 10.
+### Prerequisites
 
-[Get a free copy of Visual Studio 2017 Community Edition with support for building Universal Windows apps](http://go.microsoft.com/fwlink/?LinkID=280676)
+- Windows 10. Minimum: Windows 10, version 1809 (10.0; Build 17763, also known as the Windows 10 October 2018 Update).
+- [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk). Minimum: Windows SDK version 10.0.17763.0 (Windows 10, version 1809).
+- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) (or Visual Studio 2017). You can use the free Visual Studio Community Edition to build and run Windows Universal Platform (UWP) apps.
 
-Additionally, to be informed of the latest updates to Windows and the development tools, join the [Windows Insider Program](https://insider.windows.com/ "Become a Windows Insider").
+To get the latest updates to Windows and the development tools, and to help shape their development, join 
+the [Windows Insider Program](https://insider.windows.com).
 
 ## Build the sample
 
@@ -59,4 +75,7 @@ Select **Build > Deploy Solution**.
 
 ### Deploying and running the sample
 
-To run the sample with debugging, press F5 or select **Debug > Start Debugging**. To run the sample without debugging, press Ctrl+F5 or select **Debug > Start Without Debugging**. 
+To run the sample with debugging, press F5 or select **Debug > Start Debugging**. To run the sample without debugging, press Ctrl+F5 or select **Debug > Start Without Debugging**.
+
+
+
